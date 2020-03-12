@@ -1,7 +1,7 @@
 
   
 # FTP Server Variables
-$FTPHost = 'ftp://home.jabbam.net/Backup/Dimir/'
+$FTPHost = 'ftp://***/Backup/Dimir/'
 $FTPUser = 'dimirservi'
 $FTPPass = '***'
   
