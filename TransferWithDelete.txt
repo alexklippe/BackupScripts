@@ -1,0 +1,7 @@
+option batch continue
+option confirm off
+option reconnecttime 120
+open ftp://dimirservi:****@192.168.1.1:32421/ -timeout=4000
+
+synchronize remote -delete -criteria=either -preservetime -nopermissions -transfer=automatic -resumesupport=on E:\backup\sasha3 /Backup/SashaHome/Sasha-3
+exit
